@@ -37,7 +37,6 @@ Tracks daily streak progress with format: "Day X: [TIME]"
 Change the timezone in `update_activity.py`:
 ```python
 TIMEZONE = 'Asia/Karachi'  # For PKT
-TIMEZONE = 'Asia/Kolkata'  # For IST  
 TIMEZONE = 'UTC'           # For UTC
 ```
 
