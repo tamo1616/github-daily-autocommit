@@ -48,16 +48,16 @@ def update_activity():
     
     # Add new commit entry
     commit_messages = [
-        "Daily activity update 🚀",
-        "Keeping the streak alive ⚡",
-        "Another day, another commit 💪",
-        "Daily contribution 📈",
-        "Automated daily update 🤖",
-        "Consistency is key 🔑",
-        "Never miss a day 🎯",
-        "Building habits one commit at a time 🏗️",
-        "Daily dose of coding ☕",
-        "Streak continues 🔥"
+        "Daily activity update 🚀 ",
+        "Keeping the streak alive ⚡ ",
+        "Another day, another commit 💪 ",
+        "Daily contribution 📈 ",
+        "Automated daily update 🤖 ",
+        "Consistency is key 🔑 ",
+        "Never miss a day 🎯 ",
+        "Building habits one commit at a time 🏗️ ",
+        "Daily dose of coding ☕ ",
+        "Streak continues 🔥 "
     ]
     
     new_commit = {
