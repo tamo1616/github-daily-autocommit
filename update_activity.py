@@ -10,7 +10,6 @@ def get_timezone_object(tz_name):
     """Get timezone object based on configuration"""
     timezone_map = {
         'Asia/Karachi': pytz.timezone('Asia/Karachi'),  
-        'Asia/Kolkata': pytz.timezone('Asia/Kolkata'),  
         'UTC': pytz.UTC
     }
     return timezone_map.get(tz_name, pytz.UTC)
@@ -19,7 +18,6 @@ def get_timezone_suffix(tz_name):
     """Get timezone suffix for display"""
     suffix_map = {
         'Asia/Karachi': 'PKT',
-        'Asia/Kolkata': 'IST', 
         'UTC': 'UTC'
     }
     return suffix_map.get(tz_name, 'UTC')
